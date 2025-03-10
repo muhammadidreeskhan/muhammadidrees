@@ -48,7 +48,7 @@ export default function About() {
           >
             <div className="relative h-[400px] md:h-[500px] rounded-xl overflow-hidden shadow-xl">
               <Image 
-                src="/placeholder.svg?height=800&width=600" 
+                src="/images/about/profile.jpg" 
                 alt="Muhammad Idrees Khan - Front-End Developer" 
                 fill 
                 className="object-cover" 
