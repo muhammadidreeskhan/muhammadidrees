@@ -20,73 +20,172 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "Real Estate Funnel CRM",
     description:
-      "A full-featured e-commerce platform built with Next.js, TypeScript, and Tailwind CSS. Includes product listings, cart functionality, and checkout process.",
+      "A comprehensive CRM system for real estate agents to manage leads, track conversions, and optimize their sales funnel process.",
     image: "/placeholder.svg?height=600&width=800",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
-    demoUrl: "https://example.com",
+    tags: ["Next.js", "CRM", "Real Estate", "Tailwind CSS"],
+    demoUrl: "https://real-estate-funnel-crm.vercel.app/",
     githubUrl: "https://github.com",
     featured: true,
   },
   {
     id: 2,
-    title: "Task Management App",
+    title: "Healthcard Haven",
     description:
-      "A productivity app for managing tasks and projects. Features include drag-and-drop task organization, priority levels, and deadline tracking.",
+      "A digital health card management platform that allows users to store, access, and share their health information securely.",
     image: "/placeholder.svg?height=600&width=800",
-    tags: ["React", "Redux", "Firebase", "Styled Components"],
-    demoUrl: "https://example.com",
+    tags: ["React", "Healthcare", "Authentication", "API Integration"],
+    demoUrl: "https://healthcard-haven.vercel.app/",
     githubUrl: "https://github.com",
     featured: true,
   },
   {
     id: 3,
-    title: "Weather Dashboard",
+    title: "Invoice & Stock Sync",
     description:
-      "A weather dashboard that displays current conditions and forecasts for any location. Uses geolocation and weather APIs for real-time data.",
+      "An integrated system for managing invoices and inventory, providing real-time synchronization between sales and stock levels.",
     image: "/placeholder.svg?height=600&width=800",
-    tags: ["JavaScript", "API Integration", "CSS Grid", "Chart.js"],
-    demoUrl: "https://example.com",
+    tags: ["Next.js", "Inventory Management", "Invoicing", "Database"],
+    demoUrl: "https://invoice-stock-sync.vercel.app/",
     githubUrl: "https://github.com",
-    featured: false,
+    featured: true,
   },
   {
     id: 4,
-    title: "Portfolio Website",
+    title: "CareFlow Optimizer",
     description:
-      "A responsive portfolio website showcasing projects and skills. Features smooth animations and a modern design.",
+      "A healthcare workflow optimization tool designed to improve patient care processes and staff efficiency in medical facilities.",
     image: "/placeholder.svg?height=600&width=800",
-    tags: ["Next.js", "Framer Motion", "Three.js", "Tailwind CSS"],
-    demoUrl: "https://example.com",
+    tags: ["React", "Healthcare", "Workflow", "Dashboard"],
+    demoUrl: "https://careflow-optimizer.vercel.app/",
     githubUrl: "https://github.com",
     featured: true,
   },
   {
     id: 5,
-    title: "Recipe Finder",
+    title: "Service Swap",
     description:
-      "A recipe finder app that allows users to search for recipes based on ingredients, dietary restrictions, and meal types.",
+      "A platform for users to exchange services and skills, creating a community marketplace for talent and expertise.",
     image: "/placeholder.svg?height=600&width=800",
-    tags: ["React", "API Integration", "CSS Modules", "Jest"],
-    demoUrl: "https://example.com",
+    tags: ["Next.js", "Marketplace", "Authentication", "API Integration"],
+    demoUrl: "https://service-swap-rose.vercel.app/",
     githubUrl: "https://github.com",
     featured: false,
   },
   {
     id: 6,
-    title: "Social Media Dashboard",
+    title: "Voice Prompt Reformulator",
     description:
-      "A dashboard for managing and analyzing social media accounts. Includes analytics, post scheduling, and engagement tracking.",
+      "An AI-powered tool that helps users refine and optimize voice prompts for better interaction with voice assistants and systems.",
     image: "/placeholder.svg?height=600&width=800",
-    tags: ["Vue.js", "Vuex", "Node.js", "Express", "MongoDB"],
-    demoUrl: "https://example.com",
+    tags: ["React", "AI", "Voice Processing", "Natural Language"],
+    demoUrl: "https://voice-prompt-reformulator.vercel.app/",
+    githubUrl: "https://github.com",
+    featured: false,
+  },
+  {
+    id: 7,
+    title: "Eco Linker",
+    description:
+      "A platform connecting eco-friendly businesses and consumers, promoting sustainable products and services.",
+    image: "/placeholder.svg?height=600&width=800",
+    tags: ["Next.js", "Sustainability", "Marketplace", "API Integration"],
+    demoUrl: "https://eco-linker.vercel.app/",
+    githubUrl: "https://github.com",
+    featured: false,
+  },
+  {
+    id: 8,
+    title: "Mirbat Explorer",
+    description:
+      "An interactive guide and exploration tool for the historical city of Mirbat, showcasing its culture, landmarks, and heritage.",
+    image: "/placeholder.svg?height=600&width=800",
+    tags: ["React", "Tourism", "Interactive Maps", "Cultural Heritage"],
+    demoUrl: "https://mirbat-explorer.vercel.app/",
+    githubUrl: "https://github.com",
+    featured: false,
+  },
+  {
+    id: 9,
+    title: "Basic Calculator",
+    description:
+      "A clean, functional calculator web application with a modern interface and responsive design.",
+    image: "/placeholder.svg?height=600&width=800",
+    tags: ["React", "JavaScript", "CSS", "Web Tools"],
+    demoUrl: "https://basic-calculator-rust-theta.vercel.app/",
+    githubUrl: "https://github.com",
+    featured: false,
+  },
+  {
+    id: 10,
+    title: "Treawell Visibility Builder",
+    description:
+      "A tool for businesses to enhance their online visibility, manage their digital presence, and track performance metrics.",
+    image: "/placeholder.svg?height=600&width=800",
+    tags: ["Next.js", "SEO", "Analytics", "Business Tools"],
+    demoUrl: "https://treawell-visibility-builder.vercel.app/",
+    githubUrl: "https://github.com",
+    featured: false,
+  },
+  {
+    id: 11,
+    title: "EDSP Solution",
+    description:
+      "An educational digital service platform providing tools and resources for remote learning and educational management.",
+    image: "/placeholder.svg?height=600&width=800",
+    tags: ["React", "Education", "E-Learning", "Dashboard"],
+    demoUrl: "https://edsp-solution.vercel.app/",
+    githubUrl: "https://github.com",
+    featured: false,
+  },
+  {
+    id: 12,
+    title: "3Plex Aero Synergy",
+    description:
+      "An aerospace industry solution for managing complex workflows, maintenance schedules, and operational efficiency.",
+    image: "/placeholder.svg?height=600&width=800",
+    tags: ["Next.js", "Aerospace", "Workflow Management", "Dashboard"],
+    demoUrl: "https://3plex-aero-synergy.vercel.app/",
+    githubUrl: "https://github.com",
+    featured: false,
+  },
+  {
+    id: 13,
+    title: "Tutor Map Connector",
+    description:
+      "A platform connecting students with tutors based on location, subject expertise, and availability.",
+    image: "/placeholder.svg?height=600&width=800",
+    tags: ["React", "Education", "Mapping", "Matching Algorithm"],
+    demoUrl: "https://tutor-map-connector.vercel.app/",
+    githubUrl: "https://github.com",
+    featured: false,
+  },
+  {
+    id: 14,
+    title: "Business ERP System",
+    description:
+      "A comprehensive enterprise resource planning system for businesses to manage operations, finances, and resources.",
+    image: "/placeholder.svg?height=600&width=800",
+    tags: ["Next.js", "ERP", "Business Management", "Dashboard"],
+    demoUrl: "https://business-erpsystem.vercel.app/",
+    githubUrl: "https://github.com",
+    featured: false,
+  },
+  {
+    id: 15,
+    title: "WhatsApp Business Solution",
+    description:
+      "A platform for businesses to leverage WhatsApp for customer communication, support, and marketing campaigns.",
+    image: "/placeholder.svg?height=600&width=800",
+    tags: ["React", "WhatsApp API", "Business Communication", "CRM"],
+    demoUrl: "https://whatsappbusiness.vercel.app/",
     githubUrl: "https://github.com",
     featured: false,
   },
 ]
 
-const filterOptions = ["All", "Next.js", "React", "TypeScript", "Tailwind CSS", "API Integration"]
+const filterOptions = ["All", "Next.js", "React", "Healthcare", "Business Management", "Education", "API Integration"]
 
 export default function Projects() {
   const [activeFilter, setActiveFilter] = useState("All")
