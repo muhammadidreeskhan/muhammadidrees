@@ -113,6 +113,9 @@ declare module 'lucide-react' {
   export const Smartphone: Icon
   export const Zap: Icon
   export const Briefcase: Icon
+  export const Download: Icon
+  export const GraduationCap: Icon
+  export const Award: Icon
 }
 
 // Add any other missing module declarations here 
