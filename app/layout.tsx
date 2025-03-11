@@ -36,6 +36,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
+  verification: {
+    google: 'IJd5Z2gHMeswh8Ze1i-ZiU0HCxGvUMHXBhOM9UmBhu0',
+  },
   openGraph: {
     title: 'Muhammad Idrees | Creative Developer & Front-End Expert',
     description: 'Muhammad Idrees is a Front-End Developer specializing in creating exceptional digital experiences with React, Next.js, and modern web technologies.',
