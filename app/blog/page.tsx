@@ -5,57 +5,7 @@ import { motion, useInView } from "framer-motion"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
 import { CalendarIcon, ArrowRight } from "lucide-react"
-
-const blogPosts = [
-  {
-    title: "Getting Started with Next.js",
-    description: "Learn the basics of Next.js and how to set up your first project. We'll cover routing, data fetching, and more.",
-    date: "2023-05-15",
-    slug: "getting-started-with-nextjs",
-    category: "Development",
-    readTime: "5 min read",
-  },
-  {
-    title: "The Power of React Hooks",
-    description: "Explore how React Hooks can simplify your component logic. Understand useState, useEffect, and other essential hooks.",
-    date: "2023-06-02",
-    slug: "power-of-react-hooks",
-    category: "React",
-    readTime: "7 min read",
-  },
-  {
-    title: "Mastering Tailwind CSS",
-    description: "Tips and tricks for using Tailwind CSS in your projects. Learn how to build modern, responsive interfaces efficiently.",
-    date: "2023-06-20",
-    slug: "mastering-tailwind-css",
-    category: "Design",
-    readTime: "6 min read",
-  },
-  {
-    title: "Building a Blog with Next.js",
-    description: "Step-by-step guide to creating a blog using Next.js, MDX, and Tailwind CSS. Includes code examples and best practices.",
-    date: "2023-07-10",
-    slug: "building-blog-with-nextjs",
-    category: "Tutorial",
-    readTime: "8 min read",
-  },
-  {
-    title: "Responsive Design Best Practices",
-    description: "Essential techniques for creating truly responsive websites that work across all device sizes and browsers.",
-    date: "2023-08-05",
-    slug: "responsive-design-best-practices",
-    category: "Design",
-    readTime: "5 min read",
-  },
-  {
-    title: "The Future of Web Development",
-    description: "Exploring emerging trends and technologies that will shape the future of web development in the coming years.",
-    date: "2023-09-15",
-    slug: "future-of-web-development",
-    category: "Trends",
-    readTime: "10 min read",
-  },
-]
+import { blogPosts } from "./data"
 
 export default function BlogPage() {
   const ref = useRef<HTMLDivElement>(null)

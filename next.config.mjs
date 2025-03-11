@@ -14,13 +14,19 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true,
+    unoptimized: false,
+    formats: ['image/webp'],
+    minimumCacheTTL: 60,
+    domains: ['vercel.app'],
   },
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+  compress: true,
+  poweredByHeader: false,
+  reactStrictMode: true,
 }
 
 mergeConfig(nextConfig, userConfig)
