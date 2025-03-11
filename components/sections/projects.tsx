@@ -23,7 +23,7 @@ const projects: Project[] = [
     title: "Real Estate Funnel CRM",
     description:
       "A comprehensive CRM system for real estate agents to manage leads, track conversions, and optimize their sales funnel process.",
-    image: "/images/projects/real-estate-funnel/thumbnail.jpg",
+    image: "/images/projects/real-estate-funnel/Screenshot 2025-03-11 135843.png",
     tags: ["Next.js", "CRM", "Real Estate", "Tailwind CSS"],
     demoUrl: "https://real-estate-funnel-crm.vercel.app/",
     githubUrl: "https://github.com",
@@ -34,7 +34,7 @@ const projects: Project[] = [
     title: "Healthcard Haven",
     description:
       "A digital health card management platform that allows users to store, access, and share their health information securely.",
-    image: "/images/projects/healthcard-haven/thumbnail.jpg",
+    image: "/images/projects/healthcard-haven/Screenshot 2025-03-11 140025.png",
     tags: ["React", "Healthcare", "Authentication", "API Integration"],
     demoUrl: "https://healthcard-haven.vercel.app/",
     githubUrl: "https://github.com",
@@ -45,7 +45,7 @@ const projects: Project[] = [
     title: "Invoice & Stock Sync",
     description:
       "An integrated system for managing invoices and inventory, providing real-time synchronization between sales and stock levels.",
-    image: "/images/projects/invoice-stock/thumbnail.jpg",
+    image: "/images/projects/invoice-stock/Screenshot 2025-03-11 140140.png",
     tags: ["Next.js", "Inventory Management", "Invoicing", "Database"],
     demoUrl: "https://invoice-stock-sync.vercel.app/",
     githubUrl: "https://github.com",
@@ -56,7 +56,7 @@ const projects: Project[] = [
     title: "CareFlow Optimizer",
     description:
       "A healthcare workflow optimization tool designed to improve patient care processes and staff efficiency in medical facilities.",
-    image: "/images/projects/careflow-optimizer/thumbnail.jpg",
+    image: "/images/projects/careflow-optimizer/Screenshot 2025-03-11 140217.png",
     tags: ["React", "Healthcare", "Workflow", "Dashboard"],
     demoUrl: "https://careflow-optimizer.vercel.app/",
     githubUrl: "https://github.com",
@@ -67,7 +67,7 @@ const projects: Project[] = [
     title: "Service Swap",
     description:
       "A platform for users to exchange services and skills, creating a community marketplace for talent and expertise.",
-    image: "/images/projects/service-swap/thumbnail.jpg",
+    image: "/images/projects/service-swap/Screenshot 2025-03-11 140306.png",
     tags: ["Next.js", "Marketplace", "Authentication", "API Integration"],
     demoUrl: "https://service-swap-rose.vercel.app/",
     githubUrl: "https://github.com",
@@ -78,7 +78,7 @@ const projects: Project[] = [
     title: "Voice Prompt Reformulator",
     description:
       "An AI-powered tool that helps users refine and optimize voice prompts for better interaction with voice assistants and systems.",
-    image: "/images/projects/voice-prompt/thumbnail.jpg",
+    image: "/images/projects/voice-prompt/Screenshot 2025-03-11 140354.png",
     tags: ["React", "AI", "Voice Processing", "Natural Language"],
     demoUrl: "https://voice-prompt-reformulator.vercel.app/",
     githubUrl: "https://github.com",
@@ -89,7 +89,7 @@ const projects: Project[] = [
     title: "Eco Linker",
     description:
       "A platform connecting eco-friendly businesses and consumers, promoting sustainable products and services.",
-    image: "/images/projects/eco-linker/thumbnail.jpg",
+    image: "/images/projects/eco-linker/Screenshot 2025-03-11 13584333.png",
     tags: ["Next.js", "Sustainability", "Marketplace", "API Integration"],
     demoUrl: "https://eco-linker.vercel.app/",
     githubUrl: "https://github.com",
@@ -100,7 +100,7 @@ const projects: Project[] = [
     title: "Mirbat Explorer",
     description:
       "An interactive guide and exploration tool for the historical city of Mirbat, showcasing its culture, landmarks, and heritage.",
-    image: "/images/projects/mirbat-explorer/thumbnail.jpg",
+    image: "/images/projects/mirbat-explorer/Screenshot 2025-03-11 140507.png",
     tags: ["React", "Tourism", "Interactive Maps", "Cultural Heritage"],
     demoUrl: "https://mirbat-explorer.vercel.app/",
     githubUrl: "https://github.com",
@@ -111,7 +111,7 @@ const projects: Project[] = [
     title: "Basic Calculator",
     description:
       "A clean, functional calculator web application with a modern interface and responsive design.",
-    image: "/images/projects/calculator/thumbnail.jpg",
+    image: "/images/projects/calculator/Screenshot 2025-03-11 140536.png",
     tags: ["React", "JavaScript", "CSS", "Web Tools"],
     demoUrl: "https://basic-calculator-rust-theta.vercel.app/",
     githubUrl: "https://github.com",
@@ -122,7 +122,7 @@ const projects: Project[] = [
     title: "Treawell Visibility Builder",
     description:
       "A tool for businesses to enhance their online visibility, manage their digital presence, and track performance metrics.",
-    image: "/images/projects/treawell-visibility/thumbnail.jpg",
+    image: "/images/projects/treawell-visibility/Screenshot 2025-03-11 140651.png",
     tags: ["Next.js", "SEO", "Analytics", "Business Tools"],
     demoUrl: "https://treawell-visibility-builder.vercel.app/",
     githubUrl: "https://github.com",
@@ -133,7 +133,7 @@ const projects: Project[] = [
     title: "EDSP Solution",
     description:
       "An educational digital service platform providing tools and resources for remote learning and educational management.",
-    image: "/images/projects/edsp-solution/thumbnail.jpg",
+    image: "/images/projects/edsp-solution/Screenshot 2025-03-11 140730.png",
     tags: ["React", "Education", "E-Learning", "Dashboard"],
     demoUrl: "https://edsp-solution.vercel.app/",
     githubUrl: "https://github.com",
@@ -144,7 +144,7 @@ const projects: Project[] = [
     title: "3Plex Aero Synergy",
     description:
       "An aerospace industry solution for managing complex workflows, maintenance schedules, and operational efficiency.",
-    image: "/images/projects/aero-synergy/thumbnail.jpg",
+    image: "/images/projects/aero-synergy/Screenshot 2025-03-11 140758.png",
     tags: ["Next.js", "Aerospace", "Workflow Management", "Dashboard"],
     demoUrl: "https://3plex-aero-synergy.vercel.app/",
     githubUrl: "https://github.com",
@@ -155,7 +155,7 @@ const projects: Project[] = [
     title: "Tutor Map Connector",
     description:
       "A platform connecting students with tutors based on location, subject expertise, and availability.",
-    image: "/images/projects/tutor-map/thumbnail.jpg",
+    image: "/images/projects/tutor-map/Screenshot 2025-03-11 140847.png",
     tags: ["React", "Education", "Mapping", "Matching Algorithm"],
     demoUrl: "https://tutor-map-connector.vercel.app/",
     githubUrl: "https://github.com",
@@ -166,7 +166,7 @@ const projects: Project[] = [
     title: "Business ERP System",
     description:
       "A comprehensive enterprise resource planning system for businesses to manage operations, finances, and resources.",
-    image: "/images/projects/business-erp/thumbnail.jpg",
+    image: "/placeholder.svg?height=600&width=800",
     tags: ["Next.js", "ERP", "Business Management", "Dashboard"],
     demoUrl: "https://business-erpsystem.vercel.app/",
     githubUrl: "https://github.com",
@@ -177,7 +177,7 @@ const projects: Project[] = [
     title: "WhatsApp Business Solution",
     description:
       "A platform for businesses to leverage WhatsApp for customer communication, support, and marketing campaigns.",
-    image: "/images/projects/whatsapp-business/thumbnail.jpg",
+    image: "/images/projects/whatsapp-business/Screenshot 2025-03-11 140943.png",
     tags: ["React", "WhatsApp API", "Business Communication", "CRM"],
     demoUrl: "https://whatsappbusiness.vercel.app/",
     githubUrl: "https://github.com",

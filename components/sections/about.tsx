@@ -48,7 +48,7 @@ export default function About() {
           >
             <div className="relative h-[400px] md:h-[500px] rounded-xl overflow-hidden shadow-xl">
               <Image 
-                src="/images/about/profile.jpg" 
+                src="/images/about/profile image.png" 
                 alt="Muhammad Idrees Khan - Front-End Developer" 
                 fill 
                 className="object-cover" 
